@@ -40,3 +40,10 @@ This project pulls data from the SpaceX public API and performs basic analysis u
 pip install -r requirements.txt
 # or install manually:
 pip install pandas requests matplotlib
+
+## Example Outputs
+![Launches per Rocket](images/image-2.png)
+
+![Launches per year](images/image.png)
+
+![Launch Success Rate by Year](images/image-1.png)
