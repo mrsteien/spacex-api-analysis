@@ -27,6 +27,3 @@ Thumbs.db
 
 # Pytest
 .cache/
-
-# Data outputs
-*.csv
