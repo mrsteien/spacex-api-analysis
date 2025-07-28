@@ -27,9 +27,9 @@ This project pulls data from the SpaceX public API and performs basic analysis u
 - `data/` — contains output files like `spacex_summary.csv`
 
 ## Example Output
-- Number of launches by rocket
-- Launch success rate by rocket and year
-- Bar chart of launches per rocket
+![Launches per Rocket](images/image-2.png)
+![Launches per year](images/image.png)
+![Launch Success Rate by Year](images/image-1.png)
 
 ## Future Enhancements
 - Create a dashboard with Streamlit or Power BI
@@ -40,10 +40,3 @@ This project pulls data from the SpaceX public API and performs basic analysis u
 pip install -r requirements.txt
 # or install manually:
 pip install pandas requests matplotlib
-
-## Example Outputs
-![Launches per Rocket](images/image-2.png)
-
-![Launches per year](images/image.png)
-
-![Launch Success Rate by Year](images/image-1.png)
