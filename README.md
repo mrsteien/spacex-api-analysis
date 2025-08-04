@@ -15,10 +15,13 @@ This project pulls data from the SpaceX public API and performs basic analysis u
 ## Data Sources
 - SpaceX REST API: [https://api.spacexdata.com/v4](https://api.spacexdata.com/v4)
 
+## Visualizations
+- [Streamlit app](https://spacex-api-analysis-wjbb7se9llvvteffd9x8pd.streamlit.app/)
+
 ## Key Features
-- Fetches data from `/launches` and `/rockets` endpoints
+- Fetches data from `/launches`, `/launchpads` and `/rockets` endpoints
 - Normalizes nested JSON responses
-- Merges launch and rocket data
+- Merges launch, launchpad and rocket data
 - Saves cleaned output as CSV for further analysis
 - Includes basic visualizations (bar chart of launches per rocket)
 
@@ -27,6 +30,7 @@ This project pulls data from the SpaceX public API and performs basic analysis u
 - `data/` — contains output files like `spacex_summary.csv`
 - `images/` screenshots from notebook graphs
 - `streamlit_app.py` streamlit app
+
 ## Example Output
 ![Launches per Rocket](images/image-2.png)
 ![Launches per year](images/image.png)
