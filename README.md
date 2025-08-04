@@ -16,7 +16,7 @@ This project pulls data from the SpaceX public API and performs basic analysis u
 - SpaceX REST API: [https://api.spacexdata.com/v4](https://api.spacexdata.com/v4)
 
 ## Visualizations
-- [Streamlit app](https://spacex-api-analysis-wjbb7se9llvvteffd9x8pd.streamlit.app/)
+- [Streamlit app](https://spacex-api-analysis-wjbb7se9llvvteffd9x8pd.streamlit.app/) - visualize the summarized data from `main.ipynb`
 
 ## Key Features
 - Fetches data from `/launches`, `/launchpads` and `/rockets` endpoints
