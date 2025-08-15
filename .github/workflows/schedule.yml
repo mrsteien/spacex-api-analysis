@@ -1,0 +1,26 @@
+name: Run SpaceX Data Analysis
+on:
+  schedule:
+    - cron: '0 12 * * 1'  # Runs every Sunday at midnight
+  workflow_dispatch: # Allows manual triggering of the workflow
+
+jobs:
+  run-Analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'  # Specify the Python version you want
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run analysis script
+      run: |
+        python src/main.py
